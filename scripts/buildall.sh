@@ -6,4 +6,4 @@
  
 #!/bin/bash
 mkdir -p build
-./scripts/deploy-helloworld.sh $1
+./scripts/deploy-*.sh $1

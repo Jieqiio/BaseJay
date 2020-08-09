@@ -37,10 +37,12 @@ cd .
 
 ```
 packages       # packages library
-    hellworld      # example 
+    helloworld      # example 
     libmodbus      # modbus library
     iperf          # iperf
     SOEM           # EtherCAT Master
+    facnuc-control # fanuc control
+    p-net          # p-net Profinet device stack
 external       # external libraries
 build          # build results
 docker_scripts # scripts copied into docker image to run build task
