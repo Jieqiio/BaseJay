@@ -11,5 +11,5 @@
 	path = packages/libmodbus
 	url = https://github.com/stephane/libmodbus.git
 [submodule "packages/iperf"]
-	path = packages/libmodbus
+	path = packages/iperf
 	url = https://github.com/esnet/iperf.git
