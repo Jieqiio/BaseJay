@@ -1,9 +1,15 @@
 [submodule "packages/fanuc-control"]
 	path = packages/fanuc-control
 	url = https://github.com/usernamegemaoa/robot-control.git
-[submodule "packages/TuxPLC"]
-	path = packages/TuxPLC
-	url = https://github.com/leicht/TuxPLC.git
 [submodule "packages/p-net"]
 	path = packages/p-net
 	url = https://github.com/rtlabs-com/p-net.git
+[submodule "packages/SOEM"]
+	path = packages/SOEM
+	url = https://github.com/OpenEtherCATsociety/SOEM.git
+[submodule "packages/libmodbus"]
+	path = packages/libmodbus
+	url = https://github.com/stephane/libmodbus.git
+[submodule "packages/iperf"]
+	path = packages/libmodbus
+	url = https://github.com/esnet/iperf.git
