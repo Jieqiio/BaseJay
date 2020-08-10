@@ -9,7 +9,7 @@
 	url = https://github.com/OpenEtherCATsociety/SOEM.git
 [submodule "packages/libmodbus"]
 	path = packages/libmodbus
-	url = https://github.com/stephane/libmodbus.git
+	url = https://github.com/stephane/libmodbus.git	
 [submodule "packages/iperf"]
 	path = packages/iperf
 	url = https://github.com/esnet/iperf.git

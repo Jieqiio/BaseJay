@@ -7,8 +7,8 @@
 
 
 #!/bin/sh
-docker cp iperf $1:/ \
+docker cp packages/iperf $1:/ \
     && docker cp ./docker_scripts/build-iperf.sh $1:/ \
     && docker exec $1 bash -c "/build-iperf.sh" \
-    && rm -rf build/iperf \
-    && docker cp $1:/iperf build/iperf 
+    && rm -rf build/iperf && mkdir build/iperf \
+    && docker cp $1:/iperf/src/iperf3 build/iperf/

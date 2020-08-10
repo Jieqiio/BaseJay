@@ -7,5 +7,5 @@
 
 #!/bin/sh
 docker exec $1 bash -c "/build-helloworld.sh" \
-    && rm -rf build/helloworld \
-    && docker cp $1:/helloworld build
+    && rm -rf build/helloworld && mkdir build/hellworld \
+    && docker cp $1:/helloworld/helloworld build/hellworld/
