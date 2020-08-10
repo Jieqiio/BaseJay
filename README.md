@@ -41,7 +41,7 @@ packages       # packages library
     libmodbus      # modbus library
     iperf          # iperf
     SOEM           # EtherCAT Master
-    facnuc-control # fanuc control
+    fanuc-control # fanuc control
     p-net          # p-net Profinet device stack
 external       # external libraries
 build          # build results
