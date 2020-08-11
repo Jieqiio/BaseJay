@@ -15,7 +15,8 @@ Create your own software with BaseJay Docker Development Kit on linux, Mac and w
 ```
 git clone https://github.com/Jieqiio/BaseJay.git
 cd basejay
-cd .
+docker build -t basejay:latest .
+docker run -dt --name basejay basejay
 ```
 
 ## to build helloworld

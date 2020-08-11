@@ -31,10 +31,8 @@ RUN ln -s /usr/arm-linux-gnueabihf/lib/ld-linux.so.3 /lib/ld-linux.so.3
 RUN cp /usr/arm-linux-gnueabihf/lib/* /usr/lib/
 
 # COPY YOUR OWN CODE INTO THE DOCKER
-COPY helloworld /helloworld
-COPY docker_scripts/build-helloworld.sh  /
-
-#
+COPY packages/* /
+COPY docker_scripts/*  /
 
 WORKDIR /
 CMD ["bash"]
