@@ -44,6 +44,7 @@ packages       # packages library
     SOEM           # EtherCAT Master
     fanuc-control # fanuc control
     p-net          # p-net Profinet device stack
+    MQTT-C         # MQTT
 external       # external libraries
 build          # build results
 docker_scripts # scripts copied into docker image to run build task

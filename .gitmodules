@@ -13,3 +13,6 @@
 [submodule "packages/iperf"]
 	path = packages/iperf
 	url = https://github.com/esnet/iperf.git
+[submodule "packages/MQTT-C"]
+	path = packages/MQTT-C
+	url = https://github.com/LiamBindle/MQTT-C.git

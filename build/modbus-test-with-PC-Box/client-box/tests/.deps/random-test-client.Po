@@ -1,0 +1,242 @@
+random-test-client.o: random-test-client.c \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdc-predef.h \
+ ../config.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/features.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/cdefs.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/wordsize.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/gnu/stubs.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/gnu/stubs-soft.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stddef.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/types.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/typesizes.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/libio.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/_G_config.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/wchar.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdarg.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdio.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/unistd.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix_opt.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/environments.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/confname.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/getopt.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/string.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/xlocale.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/string.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/string2.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdlib.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/waitflags.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/waitstatus.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/endian.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/endian.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/byteswap.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/byteswap-16.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/types.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/time.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/select.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/select.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigset.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/time.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/alloca.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdlib-bsearch.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdlib-float.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/errno.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/errno.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/errno.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/errno.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/errno.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/errno-base.h \
+ ../src/modbus.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/param.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/limits.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/syslimits.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/limits.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix1_lim.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/local_lim.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/limits.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix2_lim.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/xopen_lim.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/signal.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/signum.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/siginfo.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigaction.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigcontext.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/sigcontext.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigstack.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/ucontext.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigthread.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/param.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/param.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/param.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/param.h \
+ /usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdint.h \
+ /usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/wchar.h \
+ ../src/modbus-version.h ../src/modbus-tcp.h ../src/modbus.h \
+ ../src/modbus-rtu.h
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdc-predef.h:
+
+../config.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/features.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/gnu/stubs-soft.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stddef.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/types.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/libio.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/_G_config.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/wchar.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdarg.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdio.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/unistd.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix_opt.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/environments.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/confname.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/getopt.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/string.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/xlocale.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/string.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/string2.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdlib.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/waitflags.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/waitstatus.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/endian.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/byteswap.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/byteswap-16.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/types.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/time.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/select.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/select.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigset.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/time.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/alloca.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdlib-bsearch.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/stdlib-float.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/errno.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/errno-base.h:
+
+../src/modbus.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/param.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/syslimits.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix1_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/local_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/limits.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/posix2_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/xopen_lim.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/signal.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/signum.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/siginfo.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigaction.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigcontext.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/sigcontext.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigstack.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/sys/ucontext.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/sigthread.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/param.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/linux/param.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm/param.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/asm-generic/param.h:
+
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/stdint.h:
+
+/usr/local/oecore-x86_64/sysroots/armv7a-vfp-neon-oe-linux-gnueabi/usr/include/bits/wchar.h:
+
+../src/modbus-version.h:
+
+../src/modbus-tcp.h:
+
+../src/modbus.h:
+
+../src/modbus-rtu.h:
