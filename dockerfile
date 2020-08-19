@@ -13,7 +13,7 @@ RUN apt-get update
 # RUN wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
 # RUN apt-add-repository 'deb https://apt.kitware.com/ubuntu/ bionic main'
 RUN apt-get update 
-RUN apt-get install -y gcc git make screen vim nmap python perl cpio automake libtool pkg-config liblzo2-2 cmake clang-tools doxygen graphviz wget 
+RUN apt-get install -y gcc git make screen vim nmap python perl cpio automake libtool pkg-config liblzo2-2 cmake clang-tools doxygen graphviz wget libboost-all-dev libxml2-dev
 
 COPY external/sdk /sdk
 COPY external/sdk/environment-setup-armv7a-vfp-neon-oe-linux-gnueabi /

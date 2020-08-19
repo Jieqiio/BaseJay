@@ -16,3 +16,15 @@
 [submodule "packages/MQTT-C"]
 	path = packages/MQTT-C
 	url = https://github.com/LiamBindle/MQTT-C.git
+[submodule "packages/ethersploitip"]
+	path = packages/ethersploitip
+	url = https://github.com/thiagoralves/EtherSploit-IP.git
+[submodule "packages/aws-iot-device-sdk-embeded"]
+	path = packages/aws-iot-device-sdk-embeded
+	url = https://github.com/aws/aws-iot-device-sdk-embedded-c.git
+[submodule "packages/freeopcua"]
+	path = packages/freeopcua
+	url = https://github.com/FreeOpcUa/freeopcua
+[submodule "packages/zstd"]
+	path = packages/zstd
+	url = https://github.com/facebook/zstd.git

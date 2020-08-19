@@ -6,9 +6,6 @@
  # 2020-08-07     Yong      the first version
 
 #!/bin/bash
-cd /libmodbus \
-    && sh autogen.sh \
+cd /zstd \
     && source /environment-setup-armv7a-vfp-neon-oe-linux-gnueabi \
-    && autoreconf -i \
-    && ./configure --host=arm \
-    && make clean && make
+    && make 
