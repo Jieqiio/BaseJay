@@ -71,3 +71,4 @@ scripts        # scripts to be run on host OS
 - FreeOpc-UA: https://github.com/FreeOpcUa/freeopcua
 - TDengine:  https://github.com/taosdata/TDengine
 - memcached: https://github.com/memcached/memcached
+- IndigoSCADA https://github.com/brucebot/IndigoSCADA.git
