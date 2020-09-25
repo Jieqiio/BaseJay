@@ -28,3 +28,6 @@
 [submodule "packages/zstd"]
 	path = packages/zstd
 	url = https://github.com/facebook/zstd.git
+[submodule "packages/mf2b"]
+	path = packages/mf2b
+	url = https://github.com/gindul/mf2b.git

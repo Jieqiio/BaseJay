@@ -67,8 +67,17 @@ scripts        # scripts to be run on host OS
 - email: open@jieqi.io
 
 ## TODO
-- OPC-UA: https://github.com/open62541/open62541
-- FreeOpc-UA: https://github.com/FreeOpcUa/freeopcua
-- TDengine:  https://github.com/taosdata/TDengine
-- memcached: https://github.com/memcached/memcached
-- IndigoSCADA https://github.com/brucebot/IndigoSCADA.git
+### Immediate Feature Goals
+
+- [x] OPC-UA: https://github.com/open62541/open62541
+- [x] FreeOpc-UA: https://github.com/FreeOpcUa/freeopcua
+- [x] TDengine:  https://github.com/taosdata/TDengine
+- [x] memcached: https://github.com/memcached/memcached
+- [x] IndigoSCADA https://github.com/brucebot/IndigoSCADA.git
+### Midterm Feature Goals
+- [x] CODESYS Integration
+
+### Longterm Feature Goals
+- [x] Package Manger System
+
+We accept pull requests. Kindly add comments to your code before sending one.
