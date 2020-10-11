@@ -76,8 +76,10 @@ scripts        # scripts to be run on host OS
 - [x] IndigoSCADA https://github.com/brucebot/IndigoSCADA.git
 ### Midterm Feature Goals
 - [x] CODESYS Integration
+- [x] PowerLink Slave
 
 ### Longterm Feature Goals
 - [x] Package Manger System
+
 
 We accept pull requests. Kindly add comments to your code before sending one.
