@@ -83,3 +83,7 @@ scripts        # scripts to be run on host OS
 
 
 We accept pull requests. Kindly add comments to your code before sending one.
+
+扫码购买开发板
+
+![](JayboxMB-Buy.png)
