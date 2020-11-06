@@ -84,6 +84,6 @@ scripts        # scripts to be run on host OS
 
 We accept pull requests. Kindly add comments to your code before sending one.
 
-## 购买开发板
+## Buy a JayBox Develop Board/购买开发板
 
-![https://item.taobao.com/item.htm?id=631074665039](https://item.taobao.com/item.htm?id=631074665039)
+- [https://item.taobao.com/item.htm?id=631074665039](https://item.taobao.com/item.htm?id=631074665039)
